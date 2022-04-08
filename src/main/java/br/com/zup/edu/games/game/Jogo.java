@@ -12,7 +12,7 @@ public class Jogo {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+	//teste
 	@Column(unique = true, nullable=false)
 	private String nome;
 	
